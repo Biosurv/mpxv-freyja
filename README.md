@@ -46,8 +46,6 @@ nextflow run mpxv-freyja -profile docker \\
 |`freyja\_lineages.csv`|Freyja lineage abundances per sample, with the clade taken from the lineage name (`MPX-IIb.C.1` → `IIb`)|
 |`consensus/<sample>.consensus.fasta`|Consensus sequence|
 
-"Target" means the union of the amplicon inserts (primers excluded).
-
 ## Freyja barcodes
 
 * The barcode positions must use the coordinates of `--reference`. The pipeline checks this, and
