@@ -1,0 +1,9 @@
+name: mpxv-freyja-medaka
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bioconda::medaka=2.2.2
+  - bioconda::samtools=1.24
+  - bioconda::bcftools=1.24
+  - bioconda::minimap2=2.31

@@ -1,0 +1,6 @@
+name: mpxv-freyja-freyja
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bioconda::freyja=2.0.6
