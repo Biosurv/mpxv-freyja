@@ -42,7 +42,7 @@ nextflow run mpxv-freyja -profile docker \\
 |File|Contents|
 |-|-|
 |`summary.csv`|One row per sample. Reads: total, after length filter, mapped, after primer trim. Depth threshold. Genome and target length, mean depth and % covered at ≥ `min_depth`. Amplicons below threshold. Consensus length and Ns, SNPs and indels, medaka model. With Freyja: status, clade summary, top lineage and % per clade|
-|`amplicon_coverage.csv`|Mean depth and % of each amplicon insert covered at ≥ `min\_depth`, per sample (only with `--primers`)|
+|`amplicon_coverage.csv`|Mean depth and % of each amplicon insert covered at ≥ `min_depth`, per sample (only with `--primers`)|
 |`freyja_lineages.csv`|Freyja lineage abundances per sample, with the clade taken from the lineage name (`MPX-IIb.C.1` → `IIb`)|
 |`consensus/<sample>.consensus.fasta`|Consensus sequence|
 
